@@ -1,0 +1,19 @@
+#Header {
+    font-size: 100px;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+
+#container {
+    flex-direction: column;
+    flex-wrap: wrap;
+    }
+
+#body {
+    background-image: url(background.jpeg);
+}
+
+ul {
+    list-style-type: none;
+    
+}

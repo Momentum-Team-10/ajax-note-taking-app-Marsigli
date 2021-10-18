@@ -1,6 +1,7 @@
 const url = "http://localhost:3000/notes";
 const noteList = document.getElementById("note-list");
 const container = document.createElement("ul");
+container.id = "container"
 root.appendChild(container);
 const form = document.getElementById("notes-form");
 
@@ -76,6 +77,7 @@ function renderNoteItem(noteObj) {
     })
 }
 
+//adding functionality to 
 form.addEventListener("submit", (e) => {
     e.preventDefault();
     const noteText = document.getElementById("input-tab").value;
